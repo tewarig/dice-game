@@ -2,3 +2,16 @@ var tweet = prompt("enter your tweet");
 var tweetcount =tweet.length; 
 aleart(tweetcount);  //to count the characters
 tweet.slice(0,120); //for slicing the character
+
+
+//program to take input of name of user and convert it into 1st letter capital and other letter lower case.
+var name=prompt("enter your name");
+var len=name.length;
+var let= name.slice(0,1);
+var big=let.toUpperCase();
+var last=name.slice(1,len);
+var small= last.toLowerCase();
+
+alert("hello"+big+small);
+
+
