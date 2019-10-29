@@ -15,3 +15,12 @@ var small= last.toLowerCase();
 alert("hello"+big+small);
 
 
+//bmi calculator
+function bmi(weight,height){
+  height=height*height;
+  bmi=weight/height;
+  return bmi;
+
+}
+alert(bmi(89,60));
+
