@@ -1,3 +1,4 @@
 var tweet = prompt("enter your tweet");
 var tweetcount =tweet.length; 
-aleart(tweetcount);
+aleart(tweetcount);  //to count the characters
+tweet.slice(0,120); //for slicing the character
