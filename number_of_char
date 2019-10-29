@@ -1,0 +1,3 @@
+var tweet = prompt("enter your tweet");
+var tweetcount =tweet.length; 
+aleart(tweetcount);
