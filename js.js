@@ -26,11 +26,11 @@ var img2 = document.querySelectorAll("img")[1];
 img2.setAttribute("src",imagessrc1);
 
 if(varible1>varible2){
-  document.querySelector("h1").innerHTML = "player 1 winsss" ;
+  document.querySelector("h1").innerHTML = "Player 1 winss" ;
 }
 else if(varible2>varible1)
 {
-  document.querySelector("h1").innerHTML = "player 2 winsss";
+  document.querySelector("h1").innerHTML = "Player 2 winss";
 }
 else
-(document.querySelector("h1").innerHTML = "its  a draw plesae refresh the page");
+(document.querySelector("h1").innerHTML = "it's a draw, please refresh the page.");
