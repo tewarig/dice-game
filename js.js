@@ -7,7 +7,7 @@ var varible1= Math.floor(n) + 1;
 
 var randomimage= "dice" + varible1 + ".png" ;
 
-var imagessrc= "images/" + randomimage;
+var imagessrc=  randomimage;
 
 
 var img1 = document.querySelectorAll("img")[0];
@@ -19,7 +19,7 @@ var varible2= Math.floor(Math.random()*6) + 1;
 
 var randomimage1= "dice" + varible2 + ".png" ;
 
-var imagessrc1= "images/" + randomimage1;
+var imagessrc1= randomimage1;
 
 
 var img2 = document.querySelectorAll("img")[1];
