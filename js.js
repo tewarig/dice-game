@@ -1,4 +1,4 @@
-alert("this is dice game between player1 and player2, player getting higer number on dice wins, let's see who wins");
+alert("this is a dice game between player1 and player2, player getting higer number on dice wins, let's see who wins");
 
 
 var varible1= Math.floor(Math.random()*6) + 1;
