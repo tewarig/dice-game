@@ -1,9 +1,7 @@
 alert("this is dice game between player1 and player2, player getting higer number on dice wins, let's see who wins");
 
 
-var n= Math.random();
-n = n*6;
-var varible1= Math.floor(n) + 1;
+var varible1= Math.floor(Math.random()*6) + 1;
 
 var randomimage= "dice" + varible1 + ".png" ;
 
